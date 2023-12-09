@@ -258,6 +258,7 @@ color: #434455;
     padding: 32px 16px;
     text-align: left;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* Footer section */
