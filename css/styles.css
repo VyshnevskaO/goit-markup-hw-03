@@ -245,6 +245,7 @@ color: #434455;
 }
 .portfolio-item{
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
     width: 360px;
     width: calc((100% - 48px) / 3);
 }
