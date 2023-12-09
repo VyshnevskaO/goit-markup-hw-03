@@ -242,15 +242,17 @@ color: #434455;
 }
 .portfolio-item{
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
     width: 360px;
 }
 .portfolio-header-item{
     margin-top: 32px;
         margin-bottom: 8px;
-        text-align: center;
+        text-align:left;
 }
-
+.portfolio .card-text {
+    padding: 32px 16px;
+    text-align: left;
+}
 
 /* Footer section */
 
