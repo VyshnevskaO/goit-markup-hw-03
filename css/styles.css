@@ -15,7 +15,21 @@ background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.team-header,
+.portfolio-header {
+    line-height: 1.11;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 /* Reset styles */
+
 h1, h2, h3, h4, h5, h6, p {
 margin: 0;
 }
@@ -63,21 +77,20 @@ color: #404BBF;
 .navigation .nav-items:active {
    color: #404BBF;
 }
-
 .address {
     font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.02em;
         font-style: normal;
-    }
+}
 .address .address-item{
 color: #434455;
-        }
+ }
 .address .address-item:hover,
 .address .address-item:focus {
         color:#404BBF;
-    }
+}
 
     /* Hero section */
 
@@ -90,10 +103,14 @@ color: #434455;
             line-height: 1.07;
             margin-bottom: 48px;
             width: 496px;
-            margin-left: 0;
-            margin-right: 0;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        
+            
 }
 .button {
+            display:block;
             color: var(--WHITE, #FFF);
             font-size: 16px;
             font-weight: 500;
@@ -104,6 +121,8 @@ color: #434455;
             cursor: pointer;
             padding: 16px 32px;
             font-family: "Roboto", sans-serif;
+            margin-left: auto;
+            margin-right: auto;
     
 }
     
@@ -114,7 +133,6 @@ color: #434455;
 .hero {
         
     background-color: #2E2F42;
-    justify-content: center;
     padding-top: 188px;
     padding-bottom: 188px;
         
@@ -136,18 +154,9 @@ color: #434455;
     letter-spacing: 0.02em;
     color:#434455;
 }
+
 /* Team section */
-.team-header
-.portfolio-header {
-    line-height: 1.11;
-    text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        letter-spacing: 0.03em;
-        text-transform: capitalize;
-    color:#2e2f42;
-    margin-bottom: 72px;
-}
+
 .team {
         background: var(--CLOUD, #F4F4FD);
 }
