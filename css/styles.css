@@ -28,7 +28,8 @@ background-color: #FFFFFF;
     margin-bottom: 72px;
 }
 .advantages-header-item,
-.portfolio-header-item {
+.portfolio-header-item,
+.team-header-item {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -60,7 +61,19 @@ img {
 }
 
  /* Header section */
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.header-nav{
+display: flex;
+align-items: center;
+}
 .company-name{
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -69,6 +82,7 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px;
 }
 .company-name-part{
     color: #2E2F42;
@@ -79,10 +93,15 @@ img {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px;
     
 }
 .navigation .nav-items {
     color:#2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 .navigation .nav-items:hover,
 .navigation .nav-items:focus {
@@ -97,6 +116,11 @@ color: #404BBF;
     line-height: 24px;
     letter-spacing: 0.02em;
     font-style: normal;
+
+}
+.adress-list{
+    display: flex;
+    gap: 40px;
 }
 .address .address-item{
 color: #434455;
@@ -152,24 +176,66 @@ color: #434455;
 }
 
 /* Advantages section */
+.advantages-list {
+    display: flex;
+    gap: 24px;
 
+}
+.advantages-header-item{
+    width: 264px;
+    margin-bottom: 8px;
+}
 /* Team section */
 
 .team {
         background: var(--CLOUD, #F4F4FD);
 }
+.team-list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+}
 .team-members {
     background: var(--WHITE, #FFF);
     justify-content: center;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-header-item{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.card{
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 /* Portfolio section */
 
+.portfolio-list{
+    display: flex;
+    flex-basis: calc((100% - 48px) / 3);
+    flex-wrap: wrap;
+    gap: 24px;
+}
 .portfolio-list>p {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
 }
+.portfolio-item{
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    width: 360px;
+}
+.portfolio-header-item{
+    margin-top: 32px;
+        margin-bottom: 8px;
+        text-align: center;
+}
+
 
 /* Footer section */
 
