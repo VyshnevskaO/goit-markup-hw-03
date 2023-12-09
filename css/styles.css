@@ -140,7 +140,7 @@ color: #434455;
             letter-spacing: 0.02em;
             line-height: 1.07;
             margin-bottom: 48px;
-            width: 496px;
+            max-width: 496px;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
@@ -161,6 +161,9 @@ color: #434455;
             font-family: "Roboto", sans-serif;
             margin-left: auto;
             margin-right: auto;
+            min-width: 169px;
+            height: 56px;
+            border: none;
     
 } 
 .button:hover,
@@ -176,6 +179,10 @@ color: #434455;
 }
 
 /* Advantages section */
+
+.visually-hidden{
+display:none;
+}
 .advantages-list {
     display: flex;
     gap: 24px;
@@ -207,8 +214,9 @@ color: #434455;
     margin-bottom: 8px;
     text-align: center;
 }
-.card{
-    margin-bottom: 32px;
+
+.employee{
+    padding: 32px 0;
     text-align: center;
 }
 
@@ -245,15 +253,16 @@ color: #434455;
   font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        padding-top: 101.5px;
+        padding-top: 100px;
         padding-bottom: 100px;
 }
 .company-name-part-light{
     color: var(--CLOUD, #F4F4FD);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .todo{
         font-size: 16px;
         font-weight: 400;
-        margin-top: 16px;
         width: 264px;
 }
