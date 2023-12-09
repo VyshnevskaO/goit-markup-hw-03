@@ -1,4 +1,5 @@
 /* General styles */
+
 body {
 font-family: "Roboto",sans-serif;
 color: #434455;
@@ -15,7 +16,6 @@ background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 .team-header,
 .portfolio-header {
     line-height: 1.11;
@@ -26,6 +26,20 @@ background-color: #FFFFFF;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+.advantages-header-item,
+.portfolio-header-item {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+.section-descrpt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Reset styles */
@@ -79,10 +93,10 @@ color: #404BBF;
 }
 .address {
     font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 .address .address-item{
 color: #434455;
@@ -92,7 +106,7 @@ color: #434455;
         color:#404BBF;
 }
 
-    /* Hero section */
+/* Hero section */
 
 .hero-header {
             color: var(--WHITE, #FFF);
@@ -124,8 +138,7 @@ color: #434455;
             margin-left: auto;
             margin-right: auto;
     
-}
-    
+} 
 .button:hover,
 .button:focus {
     background: var(--OCEAN, #404BBF);
@@ -138,40 +151,28 @@ color: #434455;
         
 }
 
-    /* Advantages section */
-
-.advantages-header {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.05em;
-}
-
-.advantages-descrpt {
-    font-size: 16px;
-    line-height:1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
+/* Advantages section */
 
 /* Team section */
 
 .team {
         background: var(--CLOUD, #F4F4FD);
 }
-
 .team-members {
-        background: var(--WHITE, #FFF);
+    background: var(--WHITE, #FFF);
     justify-content: center;
-    }
+}
+
 /* Portfolio section */
+
 .portfolio-list>p {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
 }
+
 /* Footer section */
+
 .footer {
         background: var(--NAVY-BLUE, #2E2F42);
     color: #F4F4FD;
