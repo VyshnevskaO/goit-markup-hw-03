@@ -1,17 +1,37 @@
-
+/* General styles */
 body {
 font-family: "Roboto",sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
-
-ul {
-list-style-type: none;
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* Reset styles */
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+ul, ol {
+list-style-type: none;
+margin: 0;
+padding-left: 0;
+}
 a {
 text-decoration: none;
 }
+img {
+    display: block;
+}
+
+ /* Header section */
 
 .company-name{
         font-family: "Raleway", sans-serif;
@@ -51,43 +71,58 @@ color: #404BBF;
         letter-spacing: 0.02em;
         font-style: normal;
     }
-        .address .address-item{
+.address .address-item{
 color: #434455;
         }
-    .address .address-item:hover,
-    .address .address-item:focus {
+.address .address-item:hover,
+.address .address-item:focus {
         color:#404BBF;
     }
-.section-first {
-   
-    background-color: #2E2F42;
-    justify-content: center;
 
+    /* Hero section */
+
+.hero-header {
+            color: var(--WHITE, #FFF);
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            line-height: 1.07;
+            margin-bottom: 48px;
+            width: 496px;
+            margin-left: 0;
+            margin-right: 0;
 }
-.header {
-color: var(--WHITE, #FFF);
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-}
-.button{
-    color: var(--WHITE, #FFF);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.04em;
+.button {
+            color: var(--WHITE, #FFF);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.04em;
             background: var(--IRIS, #4D5AE5);
+            border-radius: 4px;
             cursor: pointer;
+            padding: 16px 32px;
             font-family: "Roboto", sans-serif;
+    
 }
+    
 .button:hover,
 .button:focus {
-        background: var(--OCEAN, #404BBF);
+    background: var(--OCEAN, #404BBF);
 }
-.advantages {
+.hero {
+        
+    background-color: #2E2F42;
+    justify-content: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+        
+}
+
+    /* Advantages section */
+
+.advantages-header {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -101,7 +136,9 @@ color: var(--WHITE, #FFF);
     letter-spacing: 0.02em;
     color:#434455;
 }
-.team {
+/* Team section */
+.team-header
+.portfolio-header {
     line-height: 1.11;
     text-align: center;
         font-size: 36px;
@@ -109,9 +146,9 @@ color: var(--WHITE, #FFF);
         letter-spacing: 0.03em;
         text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px;
 }
-.section-third {
-   
+.team {
         background: var(--CLOUD, #F4F4FD);
 }
 
@@ -119,18 +156,21 @@ color: var(--WHITE, #FFF);
         background: var(--WHITE, #FFF);
     justify-content: center;
     }
-
-.portfolio>p {
+/* Portfolio section */
+.portfolio-list>p {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
 }
+/* Footer section */
 .footer {
         background: var(--NAVY-BLUE, #2E2F42);
     color: #F4F4FD;
   font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        padding-top: 101.5px;
+        padding-bottom: 100px;
 }
 .company-name-part-light{
     color: var(--CLOUD, #F4F4FD);
@@ -138,4 +178,6 @@ color: var(--WHITE, #FFF);
 .todo{
         font-size: 16px;
         font-weight: 400;
+        margin-top: 16px;
+        width: 264px;
 }
