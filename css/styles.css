@@ -74,7 +74,7 @@ img {
 display: flex;
 align-items: center;
 }
-.company-name{
+.company-name {
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -83,6 +83,9 @@ align-items: center;
         text-transform: uppercase;
         color: #4D5AE5;
         margin-right: 76px;
+}
+a.company-name{
+   margin-bottom: 0;
 }
 .company-name-part{
     color: #2E2F42;
@@ -244,8 +247,7 @@ color: #434455;
         letter-spacing: 0.02em;
 }
 .portfolio-item{
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    border-top: none;
+
     width: 360px;
     width: calc((100% - 48px) / 3);
 }
